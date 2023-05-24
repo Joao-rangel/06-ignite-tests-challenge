@@ -23,9 +23,7 @@ describe('GetBalanceUseCase', () => {
 	})
 
 	test('Deve consultar o saldo do usuário', async () => {
-		const testRequest = {
-			user_id: 'userId',
-		};
+		const testRequest = { user_id: 'userId' };
 
     const statementMock = {
       statement: [],
